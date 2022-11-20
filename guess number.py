@@ -35,11 +35,11 @@ while number_of_guess_left > 0:
 
     if guess == number:
         print('"congratulation you win"','Your Score',10)
+        break
     elif guess < number:
         print('"have one more try"','your guess was too small')
     else:
         print('"have one more chance"','Your guess was too high')
-        break
 if guess == number:
     print('"congratulation you win"','Your Score',10)
 else:
